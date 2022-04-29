@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/****** Content ******/
+.container {
+    margin: 2rem;
+    text-align: center;
+}
+
+/****** Title ******/
+.title {
+    color: white;
+    text-align: center;
+    background-color: #6fb1a0;
+}
+
+/****** Utilities ******/
+ .red {
+     text-decoration: underline 0.2rem red;
+ }
+ .blue {
+    text-decoration: underline 0.2rem blue;
+ }
+ .purple {
+    text-decoration: underline 0.2rem purple;
+ }
